@@ -26,5 +26,5 @@ app.use("/api/posts", require("./routes/posts"));
 app.use("/api/categories", require("./routes/categories"));
 
 app.listen(3001, () => {
-  console.log("Backend server connected on port 30001");
+  console.log("Backend server connected on port 3001");
 });
